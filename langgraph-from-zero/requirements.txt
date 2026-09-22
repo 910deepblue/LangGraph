@@ -1,0 +1,16 @@
+# --- 核心：LangGraph（会自动带上 langchain-core）---
+langgraph>=1.0
+
+# --- LLM 调用：用 OpenAI 兼容协议，一家 SDK 通吃所有厂商 ---
+openai
+
+# --- 配置与密钥 ---
+python-dotenv
+
+# --- 第 9 章持久化用 ---
+langgraph-checkpoint-sqlite
+
+# --- 以下为第 11 章「把 RAG 迁过来」时才需要，前 10 章可以先不装 ---
+# sentence-transformers>=3.0
+# faiss-cpu
+# pymupdf
